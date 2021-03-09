@@ -1,0 +1,64 @@
+/*
+****************** NO BORRAR LOS ESTILOS INICIALES
+*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+body > h2:nth-child(1) {
+  color: #222;
+}
+
+body > h2:nth-child(1) span {
+  color: #a70000;
+}
+body > h2 + hr {
+  margin-bottom: 20px;
+}
+/*
+****************** NO BORRAR LOS ESTILOS INICIALES
+*/
+.container {
+  max-width: 900px;
+  background-color: #47b04b;
+  display: flex;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.child {
+  display: flex;
+  color: white;
+}
+.child:nth-child(2) {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+.child__left > figure {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child__left {
+  padding: 0px 10px;
+}
+.child__title {
+  margin-bottom: 15px;
+}
+.child__text {
+  line-height: 24px; /*separacion entre linea y linea del parrafo*/
+}
+.child__right {
+  padding-right: 0 12px;
+}
